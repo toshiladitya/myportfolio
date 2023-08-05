@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website:Aditya Sharma</title>
+    <link rel="stylesheet" href="{% static 'css/hi.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <div class="wrapper">
+            <div class="container">
+                    <div class="navbar">
+                        <div class="logo-container">
+                            <img src="{% static 'images/logo/mylogo.png' %}" class="logo">
+                            <div class="logo-name">ditya Sharma</div>
+                        </div>
+                        <div class="nav-items">
+                            <div><a href="#projects">Project</a></div>
+                            <div><a href="#skills">Skills</a></div>
+                            <div><a href="#contactme">Contact Me</a></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="hero-section">
+                        <div class=" faded-text">Aditya</div>
+                        <div class="hero-section-left">
+                            <div class="hero-section-heading">Hi! Aditya Sharma</div>
+                            <div class="hero-section-heading hero-section-subheading">
+                                I am a <span class="role"></span>
+                            </div>
+                            <div class="hero-section-description">
+                                I am a software developer and here is my portfolio website.
+                                Here you will learn about my journey as a software developer.
+                            </div>
+                            <div class="btn-pink" id='btn'>Hire Me</div>
+                        </div>
+                        <div class="hero-section-right">
+                            <div class="absolute icons icon-circle">
+                                <img src="{% static 'images/img-icon/circle.png' %}" alt="" width="35px">
+                            </div>
+                            <div class="absolute icons icon-dots">
+                                <img src="{% static 'images/img-icon/dots.png' %}" alt="" width="50px">
+                            </div>
+                            <div class="absolute icons icon-cube">
+                                <img src="{% static 'images/img-icon/cube.png' %}" alt=""width="35px">
+                            </div>
+                            <div class="absolute icons icon-zigzag">
+                                <img src="{% static 'images/img-icon/wave-sound.png' %}" alt=""width="50px"> 
+                            </div>
+                            <div class="absolute icons icon-plus">
+                                <img src="{% static 'images/img-icon/plus.png' %}" alt="" width="50px">
+                            </div>
+                            <div class="user-image">
+                                <img src="{% static 'images/logo/my.jpeg' %}" alt="" width="200px" >
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+                    <div class="project-section" id="projects">
+
+                        <h2 class="page-header">Projects</h2>
+                        <div class="project-container">
+                            <div class="project-card" id="project1" >
+                                <div class="project-number project-number-right">01</div>
+                                <div class="project-content  project-content-left">
+                                <div class="project-skills-container">
+                                        <img  class="project-skill" src="{% static 'images/icons/python.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/django.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/html-5.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/css-3.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/visual-studio.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/database.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/backend.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/mysql.png' %}" alt="">
+                                        <img  class="project-skill" src=" {% static 'images/icons/coding.png' %} " alt="">
+                                </div>
+                                        <p class="project-heading">Mini Blog</p>
+                                        <p class="project-subheading">It is a Mini Blog Website 
+                                            provide you to create,update and delete blogs.
+                                        </p>
+                                        <div class="btn-grp">
+                                            <button class="btn-pink btn-project">Read More</button>
+                                            <a href="https://github.com/toshiladitya" target=”_blank”>
+                                            <i title="GithubLink" class="fa-brands fa-github icon"></i>
+                                            </a>
+                                            <a href="http://www.linkedin.com/in/toshiladityasharma" target=”_blank”>
+                                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                            </a>
+                                        </div>
+                                </div> 
+                            </div>
+                            <div class="project-card" id="project2" >
+                                <div class="project-number project-number-left">02</div>
+                                <div class="project-content  project-content-right">
+                                <div class="project-skills-container">
+                                        <img  class="project-skill" src="{% static 'images/icons/python.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/django.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/html-5.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/css-3.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/visual-studio.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/database.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/backend.png' %}" alt="">
+                                        <img  class="project-skill" src="{% static 'images/icons/mysql.png' %}" alt="">
+                                        <img  class="project-skill" src=" {% static 'images/icons/coding.png' %} " alt="">
+                                </div>
+                                        <p class="project-heading">Employee Management</p>
+                                        <p class="project-subheading">It is a Mini Blog Website 
+                                            provide you to create,update and delete blogs.
+                                        </p>
+                                        <div class="btn-grp">
+                                            <button class="btn-pink btn-project">Read More</button>
+                                            <a href="https://github.com/toshiladitya" target=”_blank”>
+                                            <i title="GithubLink" class="fa-brands fa-github icon"></i>
+                                            </a>
+                                            <a href="http://www.linkedin.com/in/toshiladityasharma" target=”_blank”>
+                                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                            </a>
+                                        </div>
+                                </div> 
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="skills" class="container skills-container">
+                            <div class="skill-fade-text">Skills</div>
+                            <div class="skills-container-left">
+                                        <h2 class="skill-heading">
+                                            
+                                            <span class="caps">M</span>e and
+                                            <br>
+                                            MyTech Stack
+                                        </h2>
+                                        <div class="skill-subheading">
+                                            <p>
+                                                Hi Everyone My name is Aditya Sharma. I am  Web Developer. I
+                                                have completed my BCA in 2023 from Sobhasaria College Sikar. I 
+                                                have knowlege of Backend Development  as well Frontend Development.
+                                                I am quick learner, hardworking and passionate for Web Development.
+                                            </p>
+                                            <br>
+                                            <p>
+                                                I have  Frontend Tecnologies skills in Html , Css , Bootstrap. 
+                                                I have Backend Technologies skills in Python Django SQL MySQL.
+                                                I have knowlege in tools loike Version Control System(Git),GitHub
+                                                and Visual-Studio Code.
+                                            </p>
+                                            <br>
+                                            <p>
+                                                I am a team man and love to lead the team as well if i got a 
+                                                chance.
+                                            </p>
+                                        </div>
+                        
+                            </div>
+                            <div class="skills-container-right">
+                            
+                                <img class="blob-style" src="{% static 'images/icons/cloud.png' %}" alt="">
+
+                                <img  class="skills-logo" src="{% static 'images/icons/python.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/django.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/html-5.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/css-3.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/visual-studio.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/database.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/backend.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/mysql.png' %}" alt="">
+                                <img  class="skills-logo" src=" {% static 'images/icons/coding.png' %} " alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/bootstrap.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/data-science.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/git.png' %}" alt="">
+                                <img  class="skills-logo" src=" {% static 'images/icons/github.png' %} " alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/technical-support.png' %}" alt="">
+                                <img  class="skills-logo" src="{% static 'images/icons/ux.png' %}" alt="">
+
+                            </div>
+
+                    </div>
+                    <div class="contactus-form-container" id="contactme">
+                        <div class="container">
+                            <h1 class="contactus-heading">Contact Me </h1>
+                            <h3 class="contactus-subheading">Questions,thoughts, or want to talk with me.</h3>
+                            <div class="contactus-form-container">
+                                <form class="form" action="" method="POST">
+                                    {% csrf_token %}
+                                    <div class="formfield-container">
+                                        <input class="formfield"
+                                         type="text"
+                                         name="name"
+                                         id=""
+                                         placeholder="Enter Your Name">
+
+                                         <input class="formfield"
+                                         type="email"
+                                         name="email"
+                                         id=""
+                                         placeholder="Enter Your Email">
+
+                                         <input class="formfield"
+                                         type="text"
+                                         name="subject"
+                                         id=""
+                                         placeholder="Enter Your subject">
+                                
+
+                                         <textarea name="message"
+                                          id="" 
+                                          cols="30" 
+                                          rows="10"
+                                          name="message"
+                                          class="formfield formfield-textarea"
+                                          placeholder="Enter Your message"> </textarea>
+                                    
+                                          <div>
+                                          <button type="submit" class="btn-pink" id="submit-button">
+                                            Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                                          </button>
+                                           </div> 
+                                        </div> 
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="container">
+                            <div class="footer-wrapper">
+                                <div class="footer-faded-text">Aditya</div>
+                                    <div class="link-wrapper">
+                                            <div>
+                                                <a href="#projects">Projects</a>
+                                            </div>
+                                            <div>
+                                                <a href="#skills">Skills</a>
+                                            </div>
+                                            <div>
+                                                <a href="#contactme">Contactme</a>
+                                            </div>
+                                    </div>
+                                    <div class="icon-wrapper">
+                                                    
+                                        <a href="https://github.com/toshiladitya" target=”_blank”>
+                                            <i title="GithubLink" class="fa-brands fa-github icon"></i>
+                                        </a>
+                                        <a href="http://www.linkedin.com/in/toshiladityasharma" target=”_blank”>
+                                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/toshil.aditya/" class="icon" target=”_blank”>
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="" class="icon" target=”_blank” >
+                                            <i class="fa-brands fa-whatsapp"></i>
+
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </footer>
+            
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Python Developer",
+        "Web Developer",
+        "Django Developer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+</html>
